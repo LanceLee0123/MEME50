@@ -9,7 +9,7 @@ void main() {
 	for (int i = 0; i < 1000; i++) {
 		arr[rand()%6]++;
 	}
-	for (int i = 0; i < 6; i++) {
-		printf("count of dice %d = %d\n", i+1, arr[i]);		
+	for (int j = 0; j < 6; j++) {
+		printf("count of dice %d = %d\n", j+1, arr[j]);		
 	}
 }
